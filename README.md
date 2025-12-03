@@ -1,5 +1,5 @@
 ================================================================================
-                  OLLAMA CHAT + OCR PRO - COMPLETE README
+                  CodeGenie AI Explainer and Code Generator README
 ================================================================================
 
 Project Name: Ollama Chatbot with PaddleOCR Integration
@@ -125,13 +125,9 @@ SMART FEATURES:
 ================================================================================
 
 Essential Files:
-  📄 app6.py                     Main application (484 lines)
+  📄 appmain.py                     Main application (484 lines)
   📋 requirements.txt            Python packages to install
-  📚 REQUIREMENTS.TXT            Complete setup guide
-  📖 CODE_ANALYSIS.md            Detailed code documentation
-  🔧 FIXES_SUMMARY.md            Recent bug fixes applied
-  ⚡ QUICK_START.txt             This quick reference
-
+ 
 Test & Debug Files:
   🧪 test_fixes.py               Verification tests
   🧪 test_ocr.py                 OCR functionality test
@@ -292,7 +288,7 @@ SETTINGS:
 ================================================================================
 
 AI MODEL:
-  File: app6.py, line 26
+  File: appmain.py, line 26
   Current: phi3:mini (2.2GB, recommended)
   Alternative: ollama pull llama2, then update app
   
@@ -656,8 +652,7 @@ PaddlePaddle: Apache License 2.0
 LangChain: MIT License
 phi3:mini: MIT License
 
-No licensing fees required.
-Free to use, modify, and distribute.
+
 
 ================================================================================
                         FINAL NOTES
@@ -672,10 +667,5 @@ Free to use, modify, and distribute.
 ✓ PRIVACY FIRST - All local, no cloud
 ✓ SHAREABLE - Easy to share with others
 
-Happy coding! Questions? Check REQUIREMENTS.TXT
 
-================================================================================
-                        Created: November 24, 2025
-                        Status: ✓ PRODUCTION READY
-                        Ready to Share & Use!
-================================================================================
+
