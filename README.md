@@ -126,6 +126,7 @@ All processing happens **locally** – no data leaves your machine.
 
 ---
 ## FEATURES
+
 CHAT WITH AI:
   ✓ Real-time AI responses (streaming)
   ✓ Context-aware conversations
@@ -141,6 +142,7 @@ IMAGE TEXT EXTRACTION (OCR):
   ✓ Ask AI about extracted text
 
 SMART FEATURES:
+
   ✓ Real-time streaming responses
   ✓ Context-aware AI (remembers recent chat)
   ✓ Automatic persistence (no manual save)
@@ -186,6 +188,7 @@ Step 6: Verify Installation
 ---
 
 ##  RUNNING THE APPLICATION
+
 IMPORTANT: Ollama must be running before starting the app!
 
 Terminal Window 1 - Start Ollama Server:
@@ -211,6 +214,7 @@ Stopping:
   Ollama: Press Ctrl+C
 ---
 ##   RUNNING THE APPLICATION
+
 IMPORTANT: Ollama must be running before starting the app!
 
 Terminal Window 1 - Start Ollama Server:
@@ -236,6 +240,7 @@ Stopping:
   Ollama: Press Ctrl+C
 ---
 ## USAGE GUIDE
+
 CHAT WITH AI:
   1. Type your message in the input box at bottom
   2. Press Enter or click Send
