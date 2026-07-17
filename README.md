@@ -141,13 +141,14 @@ IMAGE TEXT EXTRACTION (OCR):
   ✓ Supports 109+ languages
   ✓ Ask AI about extracted text
 
-SMART FEATURES:
+--**SMART FEATURES:**
 
   ✓ Real-time streaming responses
   ✓ Context-aware AI (remembers recent chat)
   ✓ Automatic persistence (no manual save)
   ✓ Modern, responsive UI
   ✓ Settings panel for customization
+  
 ---
 
 ## INSTALLATION STEPS
@@ -181,37 +182,7 @@ Step 5: Install Python Packages
   Time: 5-10 minutes
   Installs: 20+ packages
 
-Step 6: Verify Installation
-  Command: python -c "import streamlit; print('OK')"
-  Expected: Output "OK"
-  DONE! Ready to run.
----
 
-##  RUNNING THE APPLICATION
-
-IMPORTANT: Ollama must be running before starting the app!
-
-Terminal Window 1 - Start Ollama Server:
-  Command: ollama serve
-  Output: Listening on 127.0.0.1:11434
-  Keep this window OPEN
-
-Terminal Window 2 - Start Streamlit App:
-  Commands:
-    cd <project-folder>
-    .venv\Scripts\Activate.ps1         (Windows)
-    OR
-    source .venv/bin/activate          (Linux/macOS)
-    
-    streamlit run app6.py
-
-Browser:
-  Automatically opens to http://localhost:8501
-  Or manually open that URL
-
-Stopping:
-  Streamlit: Press Ctrl+C
-  Ollama: Press Ctrl+C
 ---
 ##   RUNNING THE APPLICATION
 
@@ -234,10 +205,10 @@ Terminal Window 2 - Start Streamlit App:
 Browser:
   Automatically opens to http://localhost:8501
   Or manually open that URL
+Stopping: 
+Streamlit: Press Ctrl+C
+Ollama: Press Ctrl+C
 
-Stopping:
-  Streamlit: Press Ctrl+C
-  Ollama: Press Ctrl+C
 ---
 ## USAGE GUIDE
 
@@ -266,6 +237,7 @@ SETTINGS:
   1. "Enable Streaming" - Toggle real-time response
   2. "OCR Language" - Choose language for text extraction
   3. Sidebar shows current status
+  
 ---
 ##  ACKNOWLEDGMENTS
 
